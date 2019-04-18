@@ -1,0 +1,1 @@
+$(function(){({btnMoveCheck:function(){new FtSlider({id:"slider2",width:$("#slider2").width(),height:$("#slider2").height(),textMsg:"拖动滑块到右边",successMsg:"验证成功了哦",callback:function(t){t&&$("button[type=button]").css("background-color","green")}})}}).btnMoveCheck()});

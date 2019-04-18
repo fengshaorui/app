@@ -1,0 +1,138 @@
+html, body {
+  font-size: 0.16rem;
+  background: #eee;
+  width: 100%;
+  height: 100%;
+}
+
+.cont {
+  width: 7.5rem;
+}
+
+.cont header {
+  display: flex;
+  border-bottom: solid #D1D1D1 1px;
+  height: 0.88rem;
+  padding: 0 0.20rem;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cont header .left {
+  width: 0.40rem;
+  height: 0.80rem;
+  text-align: center;
+}
+
+.cont header .left a {
+  display: inline-block;
+  width: 0.40rem;
+  height: 0.40rem;
+  margin-top: 0.20rem;
+  background: url("../imgs/search/icon.png") no-repeat;
+  background-size: 4rem 4rem;
+  background-position: -0.80rem 0.02rem;
+}
+
+.cont header form {
+  background: #fff;
+  margin-top: 0.10rem;
+  margin-left: 0.10rem;
+  width: 100%;
+  border-radius: 0.08rem;
+  overflow: hidden;
+  font-size: 0.28rem;
+  border: 0.02rem solid #bfbfbf;
+  height: 0.60rem;
+  border-right: 0;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+}
+
+.cont header form input {
+  border: none;
+  outline: none;
+  width: 100%;
+  padding-left: 0.20rem;
+}
+
+.cont header form div {
+  width: 0.60rem;
+  height: 0.60rem;
+  border-radius: 0 0.08rem 0.08rem 0;
+  border: 0.02rem solid #bfbfbf;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cont header form div span {
+  width: 0.40rem;
+  height: 0.60rem;
+  background: url("../imgs/search/icon.png") no-repeat;
+  background-size: 4.2rem 4.2rem;
+  background-position: -1.70rem 0.14rem;
+}
+
+.cont .hot-search {
+  background-color: #fff;
+}
+
+.cont .hot-search .hot-search-head {
+  padding: 0.20rem 0.30rem;
+}
+
+.cont .hot-search .hot-search-head p {
+  float: left;
+  font-size: 0.28rem;
+  color: #999;
+  padding-left: 0.02rem;
+}
+
+.cont .hot-search .hot-search-head span {
+  float: right;
+  width: 0.38rem;
+  height: 0.38rem;
+  background: url("../imgs/search/del-icon.png") no-repeat;
+  background-size: 1rem 1rem;
+  background-position: -0.7rem 0.04rem;
+}
+
+.cont .hot-search .items {
+  padding: 0.10rem 0.30rem;
+}
+
+.cont .hot-search .items a {
+  height: 0.52rem;
+  line-height: 0.52rem;
+  float: left;
+  width: 30%;
+  color: #666;
+  font-size: 0.24rem;
+  border: 0.02rem solid #eee;
+  background-color: #eee;
+  border-radius: 1.5625rem;
+  margin-right: 0.20rem;
+  margin-bottom: 0.10rem;
+  text-align: center;
+  overflow: hidden;
+}
+
+.cont .hot-history {
+  margin-top: 0.20rem;
+}
+
+.cont .tip-items-box {
+  background-color: #fff;
+  display: none;
+}
+
+.cont .tip-items-box a {
+  display: block;
+  padding: 0 0.24rem;
+  height: 0.84rem;
+  line-height: 0.84rem;
+  color: #333333;
+  font-size: 0.24rem;
+}

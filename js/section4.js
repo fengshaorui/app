@@ -1,0 +1,1 @@
+var fourObj={loadOrderBoxCont:function(){$(window).scroll(function(o){var r=$(".order-box").offset().top,d=window.innerHeight,a=$(window).scrollTop(),e=$(".order-box").data("flag");if(r-20<a+d&&e){var n=ejs.render($("#model-one").html(),{dataArr:dataArr});$(".order-box").html(n),$(".order-box").data("flag",!1)}})}};fourObj.loadOrderBoxCont();

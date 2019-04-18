@@ -1,0 +1,321 @@
+@charset "UTF-8";
+/*  头部 */
+/*  .cont .head .aside-nav-toggle {
+     color: #fe9024;
+ } */
+.cont {
+  /* 列表内容开始 */
+  /* 列表内容结束 */
+  /* 会议套装开始 */
+  /* 会议套装结束 */
+  /* 会议麦克风，音响，功放开始 */
+  /* 会议麦克风，音响，功放结束 */
+  /* 其他相关产品开始 */
+  /* 其他相关产品结束 */
+}
+
+.cont .meeting {
+  width: 7.5rem;
+  height: 2.248rem;
+  background: url(../imgs/section9/huiyi.jpg) no-repeat;
+  background-size: 100%;
+}
+
+.cont .discounts {
+  width: 7.5rem;
+  height: 3.98rem;
+  box-sizing: border-box;
+  padding: .1rem;
+  background: #febc27;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-around;
+  justify-content: space-around;
+}
+
+.cont .discounts img {
+  width: 3.48rem;
+  height: 1.17rem;
+}
+
+.cont .discounts p {
+  color: red;
+}
+
+.cont .suit-list {
+  width: 7.5rem;
+  height: 3.165rem;
+  background: #200064;
+  box-sizing: border-box;
+  padding: .1rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: space-around;
+}
+
+.cont .suit-list img {
+  width: 3.48rem;
+  height: 1.2826rem;
+}
+
+.cont .meeting-suit {
+  width: 7.5rem;
+}
+
+.cont .meeting-suit .meeting-log img {
+  width: 7.5rem;
+  height: 1.51rem;
+}
+
+.cont .meeting-suit .meeting-list {
+  width: 7.5rem;
+  height: 8.61rem;
+  position: relative;
+}
+
+.cont .meeting-suit .meeting-list img {
+  width: 7.5rem;
+  height: 8.61rem;
+}
+
+.cont .meeting-suit .meeting-list .list-cont {
+  width: 1.55rem;
+  height: 1.14rem;
+  text-align: center;
+  color: #febc27;
+  position: absolute;
+  bottom: 1.14rem;
+  right: 0;
+}
+
+.cont .meeting-suit .meeting-list .list-cont span {
+  font-size: .4rem;
+  font-weight: bold;
+}
+
+.cont .meeting-suit .meeting-list .list-cont p {
+  color: white;
+  background: #ff0066;
+  width: 1.5rem;
+  height: .52rem;
+  margin-top: .1rem;
+  line-height: .52rem;
+  border-radius: 30px;
+}
+
+.cont .meeting-Mike {
+  width: 7.5rem;
+}
+
+.cont .meeting-Mike .Mike-img1 {
+  width: 7.5rem;
+  height: .94rem;
+  background: #d10054;
+  line-height: .94rem;
+}
+
+.cont .meeting-Mike .Mike-img1 img {
+  width: 7.5rem;
+  height: .48rem;
+}
+
+.cont .meeting-Mike .Mike-img2 {
+  width: 7.5rem;
+  height: 2.26rem;
+}
+
+.cont .meeting-Mike .Mike-list {
+  width: 7.5rem;
+  box-sizing: border-box;
+  background: #d10054;
+  padding: .04rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.cont .meeting-Mike .Mike-list .Mike-list-box {
+  width: 7.5rem;
+  height: 8.5rem;
+  box-sizing: border-box;
+  background: #d10054;
+  padding: .04rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.cont .meeting-Mike .Mike-list .Mike-box {
+  width: 2.42rem;
+  height: 4.1rem;
+  background: white;
+  font-size: .26rem;
+  margin-top: .05rem;
+  margin-bottom: .05rem;
+}
+
+.cont .meeting-Mike .Mike-list .Mike-box .img-box {
+  width: 2.42rem;
+  height: 2.38rem;
+  padding: .2rem;
+}
+
+.cont .meeting-Mike .Mike-list .Mike-box .details {
+  width: 2.38rem;
+  height: .96rem;
+  padding: .16rem .16rem .16rem .16rem;
+  overflow: hidden;
+  color: black;
+}
+
+.cont .meeting-Mike .Mike-list .Mike-box .details span {
+  display: block;
+  width: 2.06rem;
+  height: .64rem;
+  overflow: hidden;
+}
+
+.cont .meeting-Mike .Mike-list .Mike-box .price {
+  width: 2.06rem;
+  height: .48rem;
+  border-top: 0.02rem solid #e2e2e2;
+  line-height: .48rem;
+  margin: 0 auto;
+  margin-top: .1rem;
+  color: #ee850d;
+}
+
+.cont .meeting-Mike .Mike-list .Mike-bottom {
+  width: 7.5rem;
+  height: 3.4rem;
+  padding-right: .025rem;
+  padding-left: .025rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.cont .meeting-Mike .Mike-list .Mike-bottom .mike-brand {
+  width: 1.835rem;
+  height: 1.6856rem;
+  background: white;
+}
+
+.cont .meeting-Mike .Mike-list .Mike-bottom .mike-brand img {
+  width: 1.4112rem;
+  height: .7056rem;
+  margin: .2rem;
+}
+
+.cont .meeting-Mike .Mike-list .Mike-bottom .mike-brand p {
+  width: 1.835rem;
+  height: .58rem;
+  font-size: .24rem;
+  color: gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cont .meeting-Mike .Mike-list .mike-more {
+  width: 7.5rem;
+  height: .8rem;
+  margin-right: .02rem;
+  margin-left: .02rem;
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cont .meeting-Mike .Mike-list .mike-more a {
+  font-size: .28rem;
+  color: #d10054;
+}
+
+.cont .meeting-else {
+  width: 7.5rem;
+}
+
+.cont .meeting-else .else-img1 {
+  width: 7.5rem;
+  height: .94rem;
+  background: #d10054;
+  line-height: .94rem;
+}
+
+.cont .meeting-else .else-img1 img {
+  width: 7.5rem;
+  height: .48rem;
+}
+
+.cont .meeting-else .btn-box {
+  width: 7.5rem;
+  height: .77rem;
+  background: #d10054;
+  display: flex;
+  justify-content: space-around;
+}
+
+.cont .meeting-else .btn-box .btn-list {
+  width: 2.4676rem;
+  height: .72rem;
+  color: black;
+  background-color: #fff;
+  line-height: .72rem;
+  text-align: center;
+  font-size: .28rem;
+}
+
+.cont .meeting-else .btn-box .btn-list2 {
+  color: #fff;
+  background-color: #f46f6f;
+}
+
+.cont .meeting-else .list-box {
+  width: 7.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.cont .meeting-else .list-box .list-item {
+  width: 2.1rem;
+  margin-left: .09rem;
+  margin-right: .09rem;
+  padding-top: .45rem;
+}
+
+.cont .meeting-else .list-box .list-item img {
+  width: 2.1rem;
+  height: 2.1rem;
+}
+
+.cont .meeting-else .list-box .list-item p {
+  width: 2.1rem;
+  height: .76rem;
+  line-height: .38rem;
+  overflow: hidden;
+  color: black;
+}
+
+.cont .meeting-else .list-box .list-item div {
+  width: 2.1rem;
+  height: .6438rem;
+  margin-top: .2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cont .meeting-else .list-box .list-item div p {
+  width: 1.25rem;
+  height: .42rem;
+  color: #febc27;
+}
+
+.cont .meeting-else .list-box .list-item div img {
+  width: .50376rem;
+  height: .50376rem;
+}

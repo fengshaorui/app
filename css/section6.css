@@ -1,0 +1,521 @@
+body {
+  font-size: 0.16rem;
+}
+
+.neirong {
+  background: #f3f3f3;
+  width: 100%;
+}
+
+.neirong .o-banner {
+  width: 100vw;
+}
+
+.neirong .o-banner img {
+  width: 100%;
+  height: 100%;
+}
+
+.neirong .t-banner {
+  padding: .2rem;
+  background: #febc27;
+  box-sizing: border-box;
+}
+
+.neirong .t-banner .banner-list {
+  overflow: hidden;
+  margin-left: -2%;
+}
+
+.neirong .t-banner .banner-list .banner-list1 {
+  box-sizing: border-box;
+  width: 48%;
+  margin-left: 2%;
+  float: left;
+  margin-bottom: .1rem;
+}
+
+.neirong .t-banner .banner-p {
+  color: red;
+  margin-top: .2rem;
+}
+
+.neirong .space img {
+  width: 100%;
+}
+
+.neirong .hot {
+  width: 100%;
+  margin: 0 auto;
+  background-color: #f2f2f2;
+  padding: 8% 0;
+}
+
+.neirong .hot .hot-one {
+  width: 94%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.neirong .hot .hot-one .hot-two {
+  width: 100%;
+  font-size: .4rem;
+  position: absolute;
+  text-align: center;
+  margin-top: -0.26rem;
+}
+
+.neirong .hot .hot-one .hot-two .hot-three {
+  padding-left: 3.5%;
+  padding-right: 3.5%;
+  color: #000;
+  background-color: #f2f2f2;
+  display: inline;
+}
+
+.neirong .hot .hot-one .hot-four {
+  width: 100%;
+  background: url(../imgs/section6/003.jpg) repeat-x;
+  background-position: center center;
+  height: .04rem;
+}
+
+.neirong .hot-list {
+  font-size: .1rem;
+  background-color: #f2f2f2;
+}
+
+.neirong .hot-list .hot-list-top {
+  display: flex;
+  flex-wrap: wrap;
+  height: .74rem;
+  line-height: .74rem;
+}
+
+.neirong .hot-list .hot-list-top div {
+  color: #666;
+  background-color: #fff;
+  width: 50%;
+  margin-bottom: .04rem;
+  text-align: center;
+  font-size: .28rem;
+}
+
+.neirong .hot-list .hot-list-top .hot-list-left {
+  color: #fff;
+  background-color: #f46f6f;
+  width: 50%;
+  margin-bottom: .04rem;
+  text-align: center;
+  font-size: .28rem;
+}
+
+.neirong .hot-list .hot-list-down {
+  background-color: #fff;
+  width: 100%;
+  padding: .15rem 0;
+}
+
+.neirong .hot-list .hot-list-down .hot-list-down-one {
+  width: 100%;
+  display: flex;
+}
+
+.neirong .hot-list .hot-list-down .hot-list-down-one div {
+  margin: 0 .2rem;
+  margin-right: 0 !important;
+}
+
+.neirong .hot-list .hot-list-down .hot-list-down-one div .hot-list-down-one-top a {
+  color: #333;
+}
+
+.neirong .hot-list .hot-list-down .hot-list-down-one div .hot-list-down-one-top a p {
+  overflow: hidden;
+  height: .4rem;
+  line-height: .4rem;
+  text-align: left;
+  font-size: .06rem;
+}
+
+.neirong .hot-list .hot-list-down .hot-list-down-one div .hot-list-down-one-top a p span {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  box-orient: vertical;
+  line-clamp: 2;
+}
+
+.neirong .hot-list .hot-list-down .hot-list-down-one div .hot-list-down-one-down {
+  margin-top: .05rem;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+}
+
+.neirong .hot-list .hot-list-down .hot-list-down-one div .hot-list-down-one-down .hot-list-price-left {
+  color: #ff6600;
+  margin-top: .12rem;
+  font-size: .07rem;
+}
+
+.neirong .hot-list .hot-list-down .hot-list-down-one div .hot-list-down-one-down .hot-list-price-right {
+  width: 24%;
+}
+
+.neirong .hot-list .hot-list-down .hot-list-down-one div .hot-list-down-one-down .hot-list-price-right a img {
+  width: 70%;
+}
+
+.neirong .ly-hot-list {
+  width: 100%;
+}
+
+.neirong .ly-hot-list .voice-pro {
+  width: 100%;
+  position: relative;
+}
+
+.neirong .ly-hot-list .voice-pro .voice-pro-top a img {
+  width: 100%;
+}
+
+.neirong .ly-hot-list .voice-pro .voice-pro-down {
+  width: 25%;
+  margin-left: 1%;
+  position: absolute;
+  right: 2%;
+  top: 78%;
+}
+
+.neirong .ly-hot-list .voice-pro .voice-pro-down .voice-pro-down-list {
+  width: 100%;
+  height: .42rem;
+  font-size: .09rem;
+  color: #ffff00;
+}
+
+.neirong .ly-hot-list .voice-pro .voice-pro-down .voice-pro-down-list .voice-pro-one {
+  font-size: .42rem;
+  color: #ffff00;
+  line-height: .09rem;
+  font-weight: bold;
+}
+
+.neirong .ly-hot-list .voice-pro .voice-pro-down a {
+  width: 85%;
+  height: .5rem;
+  line-height: .5rem;
+  font-size: .07rem;
+  display: block;
+  background: #ff0066;
+  text-align: center;
+  color: #fff;
+  border-radius: .3rem;
+  margin: .05rem 0 0 0;
+}
+
+.neirong .ly-hot-list .more-pro a {
+  display: block;
+  text-decoration: none;
+  width: 45%;
+  height: .5rem;
+  line-height: .5rem;
+  text-align: center;
+  background: #ff3385;
+  color: #fff;
+  border-radius: .3rem;
+  font-size: .06rem;
+  margin: 3% auto;
+  font-weight: bold;
+}
+
+.neirong .voice-pro {
+  width: 100%;
+  position: relative;
+}
+
+.neirong .voice-pro .voice-pro-top a img {
+  width: 100%;
+}
+
+.neirong .voice-pro .voice-pro-down {
+  width: 25%;
+  margin-left: 1%;
+  position: absolute;
+  right: 2%;
+  top: 78%;
+}
+
+.neirong .voice-pro .voice-pro-down .voice-pro-down-list {
+  width: 100%;
+  height: .42rem;
+  font-size: .09rem;
+  color: #ffff00;
+}
+
+.neirong .voice-pro .voice-pro-down .voice-pro-down-list .voice-pro-one {
+  font-size: .42rem;
+  color: #ffff00;
+  line-height: .09rem;
+  font-weight: bold;
+}
+
+.neirong .voice-pro .voice-pro-down a {
+  width: 85%;
+  height: .5rem;
+  line-height: .5rem;
+  font-size: .07rem;
+  display: block;
+  background: #ff0066;
+  text-align: center;
+  color: #fff;
+  border-radius: .3rem;
+  margin: .05rem 0 0 0;
+}
+
+.neirong .more-pro a {
+  display: block;
+  text-decoration: none;
+  width: 45%;
+  height: .5rem;
+  line-height: .5rem;
+  text-align: center;
+  background: #ff3385;
+  color: #fff;
+  border-radius: .3rem;
+  font-size: .06rem;
+  margin: 3% auto;
+  font-weight: bold;
+}
+
+.neirong .MKF-brand {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -2%;
+}
+
+.neirong .MKF-brand .brand-list {
+  box-sizing: border-box;
+  margin: 0;
+  width: 25%;
+  border-right: .02rem solid #eee;
+}
+
+.neirong .MKF-brand .brand-list a {
+  color: #333;
+}
+
+.neirong .MKF-brand .brand-list a .brand-list-top {
+  padding: .2rem .2rem 0 .2rem;
+}
+
+.neirong .MKF-brand .brand-list a .brand-list-top img {
+  width: 100%;
+  height: 100%;
+}
+
+.neirong .MKF-brand .brand-list a .brand-list-down {
+  height: .56rem;
+  padding: 0px .16rem;
+}
+
+.neirong .MKF-brand .brand-list a .brand-list-down .brandname {
+  border-top: .02rem solid #eee;
+  text-align: center;
+  font-size: .24rem;
+  line-height: .56rem;
+}
+
+.neirong .down-k-song {
+  width: 100%;
+}
+
+.neirong .down-k-song img {
+  width: 100%;
+  height: 100%;
+}
+
+.neirong .Video-recording {
+  background: #eee;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0.5% 0;
+  width: 100%;
+  padding-right: .04rem;
+}
+
+.neirong .Video-recording .Video-recording-list {
+  width: 30%;
+  margin: 0 .2rem;
+  margin-right: 0 !important;
+  margin-bottom: .3rem;
+}
+
+.neirong .Video-recording .Video-recording-list .hot-list-down-one-top a {
+  color: #333;
+}
+
+.neirong .Video-recording .Video-recording-list .hot-list-down-one-top a p {
+  overflow: hidden;
+  height: .8rem;
+  line-height: .4rem;
+  text-align: left;
+  font-size: .06rem;
+}
+
+.neirong .Video-recording .Video-recording-list .hot-list-down-one-top a p span {
+  display: -webkit-box !important;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  -webkit-line-clamp: 2;
+}
+
+.neirong .Video-recording .Video-recording-list .hot-list-down-one-down {
+  margin-top: .05rem;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+}
+
+.neirong .Video-recording .Video-recording-list .hot-list-down-one-down .hot-list-price-left {
+  color: #ff6600;
+  margin-top: .12rem;
+  font-size: .07rem;
+}
+
+.neirong .Video-recording .Video-recording-list .hot-list-down-one-down .hot-list-price-right {
+  width: 24%;
+}
+
+.neirong .Video-recording .Video-recording-list .hot-list-down-one-down .hot-list-price-right a img {
+  width: 70%;
+}
+
+.neirong .more-sound-list .more-sound {
+  display: block;
+  text-decoration: none;
+  width: 45%;
+  height: .5rem;
+  line-height: .5rem;
+  text-align: center;
+  color: #ff3385;
+  font-size: .06rem;
+  margin: 3% auto;
+  font-weight: bold;
+}
+
+.neirong .related-products {
+  font-size: .1rem;
+  background-color: #f2f2f2;
+}
+
+.neirong .related-products .hot-list-top {
+  display: flex;
+  flex-wrap: wrap;
+  height: .74rem;
+  line-height: .74rem;
+}
+
+.neirong .related-products .hot-list-top .hot-list-left {
+  color: #fff;
+  background-color: #f46f6f;
+  width: 33.3%;
+  margin-bottom: .04rem;
+  text-align: center;
+}
+
+.neirong .related-products .hot-list-top .hot-list-left span {
+  font-size: .28rem;
+  position: relative;
+  top: -0.08rem;
+}
+
+.neirong .related-products .hot-list-top div {
+  color: #666;
+  background-color: #fff;
+  width: 33.3%;
+  margin-bottom: .04rem;
+  text-align: center;
+}
+
+.neirong .related-products .hot-list-top div span {
+  font-size: .28rem;
+  position: relative;
+  top: -0.08rem;
+}
+
+.neirong .last-one {
+  width: 100%;
+}
+
+.neirong .last-one img {
+  width: 100%;
+}
+
+.neirong .last-two {
+  width: 94%;
+  margin: 0 auto;
+}
+
+.neirong .last-two img {
+  width: 100%;
+}
+
+.neirong .last-three {
+  padding: .25rem 0;
+  width: 94%;
+  margin: 0 auto;
+}
+
+.neirong .last-three a img {
+  width: 100%;
+}
+
+.neirong footer .thematic-special {
+  margin: .48rem auto;
+  width: 94%;
+  height: .02rem;
+  border-top: .03rem solid #d4d4d4;
+  text-align: center;
+}
+
+.neirong footer .thematic-special span {
+  position: relative;
+  top: -0.28rem;
+  background: #f3f3f3;
+  padding: 0 .4rem;
+  font-size: .32rem;
+  color: #333;
+}
+
+.neirong footer .thematic-special-list {
+  padding: .4rem 0 .4rem 0;
+  background: #fff;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.neirong footer .thematic-special-list .thematic-special-list1 {
+  width: 20%;
+  margin-bottom: .6rem;
+  border: 0;
+}
+
+.neirong footer .thematic-special-list .thematic-special-list1 a {
+  margin-top: .4rem;
+  text-align: center;
+}
+
+.neirong footer .thematic-special-list .thematic-special-list1 a img {
+  margin-top: .4rem;
+  width: 40px;
+  height: 40px;
+  margin: 0 .36rem;
+}
+
+.neirong footer .thematic-special-list .thematic-special-list1 a p {
+  margin-top: .08rem;
+  font-size: .24rem;
+  color: #333;
+}

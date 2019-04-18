@@ -1,0 +1,357 @@
+.cont .meeting {
+  width: 7.5rem;
+  height: 1.875rem;
+  background: url(../imgs/section9/clej.jpg) no-repeat;
+  background-size: 100%;
+}
+
+.cont .brand-box {
+  width: 7.5rem;
+}
+
+.cont .brand-box .brand-top {
+  width: 7.05rem;
+  height: .04rem;
+  background: #cccccc;
+  margin: .3rem auto;
+  position: relative;
+}
+
+.cont .brand-box .brand-top span {
+  display: block;
+  width: 1.92rem;
+  height: .38rem;
+  background: white;
+  padding: 0 .04rem;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  margin-top: -0.19rem;
+  margin-left: -0.96rem;
+  text-align: center;
+  font-size: .28rem;
+  color: gray;
+}
+
+.cont .brand-box .brand-top span img {
+  width: .3rem;
+  height: .3rem;
+}
+
+.cont .brand-box .brand-bottom {
+  width: .15rem;
+  display: flex;
+}
+
+.cont .brand-box .brand-bottom .brand-list {
+  width: 1.5rem;
+  height: 1.45rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cont .brand-box .brand-bottom .brand-list img {
+  width: 1.5rem;
+  height: .75rem;
+  margin-top: .16rem;
+}
+
+.cont .brand-box .brand-bottom .brand-list .img2 {
+  width: .7rem;
+  height: .7rem;
+  margin-bottom: .14rem;
+}
+
+.cont .brand-box .brand-bottom .brand-list p {
+  width: 1.5rem;
+  height: .24rem;
+  text-align: center;
+  color: gray;
+  margin-bottom: .3rem;
+}
+
+.cont .headset-box {
+  width: 7.5rem;
+}
+
+.cont .headset-box .img1 {
+  width: 7.5rem;
+  height: 1.7578rem;
+}
+
+.cont .headset-box .headset-item {
+  width: 7.5rem;
+  padding: .14rem;
+}
+
+.cont .headset-box .headset-item .img2 {
+  width: 7.22rem;
+  height: 2.47156rem;
+}
+
+.cont .headset-box .headset-item .headset {
+  width: 7.22rem;
+  height: 3.4666rem;
+  margin-top: .12rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.cont .headset-box .headset-item .headset .headset-list {
+  width: 2.3266rem;
+  height: 3.4668rem;
+  border: 1px solid #cccccc;
+  box-sizing: border-box;
+  padding: .12rem;
+  margin-right: .06rem;
+}
+
+.cont .headset-box .headset-item .headset .headset-list img {
+  width: 2.0466rem;
+  height: 2.0466rem;
+}
+
+.cont .headset-box .headset-item .headset .headset-list .p1 {
+  width: 2.0466rem;
+  height: .72rem;
+  overflow: hidden;
+  line-height: .36rem;
+  color: black;
+}
+
+.cont .headset-box .headset-item .headset .headset-list .price {
+  width: 2.0466rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.cont .headset-box .headset-item .headset .headset-list .price p {
+  width: .6625rem;
+  height: .24rem;
+  color: #ff6600;
+  font-size: .24rem;
+  margin-top: .08rem;
+}
+
+.cont .headset-box .headset-item .headset .headset-list .price a {
+  display: block;
+  margin-right: -0.06rem;
+  width: .9rem;
+  height: .4rem;
+  color: #fff;
+  background: #f04649;
+  text-align: center;
+  border-radius: .08rem;
+  font-size: .24rem;
+  line-height: .4rem;
+}
+
+.cont .headset-box .headset-item .headset .headset-list:last-of-type {
+  margin-right: 0;
+}
+
+.cont .headset-box .headset-item .more {
+  width: 7.22rem;
+  height: .7rem;
+  display: block;
+  margin-top: .12rem;
+  margin-bottom: .16rem;
+  line-height: .7rem;
+  background: #f5f5f5;
+  text-decoration: none;
+  text-align: center;
+  font-size: .24rem;
+  color: #ff6600;
+  border-radius: .08rem;
+  border: .02rem solid #e4e4e4;
+}
+
+.cont .brands-box {
+  width: 7.5rem;
+}
+
+.cont .brands-box .brands {
+  width: 7.5rem;
+  border-top: 0.02rem solid #cccccc;
+  border-left: 0.02rem solid #cccccc;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.cont .brands-box .brands a {
+  display: block;
+  width: 1.87rem;
+  height: .5916rem;
+  border-bottom: 0.02rem solid #cccccc;
+  border-right: 0.02rem solid #cccccc;
+  text-align: center;
+}
+
+.cont .brands-box .brands a img {
+  width: .9996rem;
+  height: .5rem;
+  margin-top: .02rem;
+  margin-bottom: .02rem;
+}
+
+.cont .hot-sale {
+  width: 7.5rem;
+  height: .8rem;
+  border: 0.02rem solid #cccccc;
+  margin-top: .3rem;
+  border-left: 0.1rem solid #ff6600;
+  border-top: 0.02rem solid #cccccc;
+  border-bottom: 0.02rem solid #cccccc;
+  font-size: .32rem;
+  color: #ff6600;
+  line-height: .8rem;
+  padding-left: .2rem;
+}
+
+.cont .hots-btn {
+  width: 7.5rem;
+  border-bottom: 0.04rem solid #cccccc;
+  display: flex;
+}
+
+.cont .hots-btn .brand-list {
+  width: 1.5rem;
+  height: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cont .hots-btn .brand-list img {
+  width: 1.5rem;
+  height: .75rem;
+  margin-top: .16rem;
+}
+
+.cont .hots-btn .brand-list .img2 {
+  width: .7rem;
+  height: .7rem;
+  margin-bottom: .14rem;
+}
+
+.cont .hots-btn .brand-list p {
+  width: 1.5rem;
+  height: .24rem;
+  text-align: center;
+  color: gray;
+  margin-bottom: .3rem;
+}
+
+.cont .hots-btn .brand-list:after {
+  border-left: .1rem solid transparent;
+  border-right: .1rem solid transparent;
+  border-bottom: .1rem solid #ff6600;
+  content: " ";
+  display: none;
+  width: 0;
+  height: 0;
+  position: relative;
+  left: 0;
+  bottom: .15rem;
+}
+
+.cont .hots-btn .brand-list2 {
+  position: relative;
+  left: 0;
+  bottom: -.04rem;
+  border-bottom: 0.04rem solid #ff6600;
+}
+
+.cont .hots-btn .brand-list2:after {
+  display: block;
+}
+
+.cont .hots-list {
+  width: 7.5rem;
+  min-height: 8.8rem;
+}
+
+.cont .hots-list .headset-list {
+  width: 7.5rem;
+  height: 2.2rem;
+  border-bottom: 1px solid #cccccc;
+  box-sizing: border-box;
+  margin-right: .06rem;
+  display: flex;
+}
+
+.cont .hots-list .headset-list img {
+  width: 2.4rem;
+  height: 2.22rem;
+  padding: .1rem;
+}
+
+.cont .hots-list .headset-list .price {
+  width: 4.9rem;
+  display: flex;
+  justify-content: space-between;
+  margin-right: .2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.cont .hots-list .headset-list .price .p1 {
+  width: 4.86rem;
+  height: .72rem;
+  overflow: hidden;
+  line-height: .36rem;
+  font-size: .28rem;
+  color: black;
+}
+
+.cont .hots-list .headset-list .price .p2 {
+  margin-top: .16rem;
+  white-space: nowrap;
+  color: gray;
+  font-size: .24rem;
+}
+
+.cont .hots-list .headset-list .price div {
+  width: 4.88rem;
+  height: .72rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.cont .hots-list .headset-list .price div p {
+  width: .8rem;
+  height: .38rem;
+  color: #ff6600;
+  font-size: .28rem;
+  margin-top: .08rem;
+}
+
+.cont .hots-list .headset-list .price div .xuan {
+  display: block;
+  margin-right: -0.06rem;
+  width: .9rem;
+  height: .4rem;
+  color: #fff;
+  background: #ff0078;
+  text-align: center;
+  border-radius: .08rem;
+  font-size: .24rem;
+  line-height: .4rem;
+}
+
+.cont .hots-bottom .more {
+  width: 7.22rem;
+  height: .7rem;
+  display: block;
+  margin-top: .12rem;
+  margin-bottom: .16rem;
+  line-height: .7rem;
+  background: #f5f5f5;
+  text-decoration: none;
+  text-align: center;
+  font-size: .24rem;
+  color: #ff6600;
+  border-radius: .08rem;
+  border: .02rem solid #e4e4e4;
+}

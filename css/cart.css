@@ -1,0 +1,286 @@
+@charset "UTF-8";
+/* 购物车的scss文件 */
+html,
+body {
+  background-color: #eeeeee;
+}
+
+.cont .head {
+  background-color: #fff;
+}
+
+.cont .cart-box {
+  width: 7.5rem;
+  margin-top: 1.5rem;
+  display: none;
+}
+
+.cont .cart-box .cart-top {
+  width: 7.5rem;
+  height: 3.44rem;
+  padding-left: .3rem;
+  padding-right: .3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cont .cart-box .cart-top img {
+  width: 1.4rem;
+  height: 1.4rem;
+  margin-top: 1.4rem;
+}
+
+.cont .cart-box .cart-top p {
+  width: 6.9rem;
+  height: .38rem;
+  margin-top: .2rem;
+  font-size: 14px;
+  text-align: center;
+  color: gray;
+}
+
+.cont .cart-box .cart-stroll {
+  width: 7.5rem;
+  height: 1.6rem;
+  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cont .cart-box .cart-stroll p {
+  width: 2rem;
+  height: .8rem;
+  border-radius: .08rem;
+  background: #f60;
+  line-height: .8rem;
+  text-align: center;
+  color: #fff;
+  font-size: .28rem;
+}
+
+.cont .carts-box {
+  width: 7.5rem;
+}
+
+.cont .carts-box .carts-top {
+  width: 7.5rem;
+  height: .8rem;
+  width: 100%;
+  height: .8rem;
+  line-height: .8rem;
+  border-bottom: .02rem solid #eee;
+  background: #fff;
+  font-size: .26rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.cont .carts-box .carts-top .span1 {
+  color: #f60;
+  margin-left: .16rem;
+}
+
+.cont .carts-box .carts-top .span2 {
+  color: #f60;
+  margin-right: .16rem;
+}
+
+.cont .carts-box .carts-middle {
+  width: 7.5rem;
+  height: 2.12rem;
+  padding-top: .2rem;
+  padding-bottom: .2rem;
+  border-top: 0.02rem solid #dfdfdf;
+  background: white;
+  display: flex;
+  align-items: center;
+}
+
+.cont .carts-box .carts-middle .dx {
+  width: 19px;
+  height: 19px;
+  border-radius: 19px;
+  border: 1px solid #dcdcdc;
+  outline: 0;
+  margin-right: .2rem;
+}
+
+.cont .carts-box .carts-middle .dx2 {
+  background: url(../imgs/section9/dui.jpg) center no-repeat #fc7c25;
+  background-size: .22rem .16rem;
+  border: 0.02rem solid #f60;
+}
+
+.cont .carts-box .carts-middle .img1 {
+  width: 1.6rem;
+  height: 1.6rem;
+  margin-right: .16rem;
+}
+
+.cont .carts-box .carts-middle .img1 img {
+  width: 1.6rem;
+  height: 1.6rem;
+}
+
+.cont .carts-box .carts-middle .carts-right {
+  width: 4.96rem;
+  height: 1.68rem;
+  margin-right: .1rem;
+}
+
+.cont .carts-box .carts-middle .carts-right .carts-details {
+  width: 4.96rem;
+  height: .76rem;
+}
+
+.cont .carts-box .carts-middle .carts-right .carts-details a {
+  color: black;
+  font-size: .28rem;
+  overflow: hidden;
+}
+
+.cont .carts-box .carts-middle .carts-right .no-format {
+  width: .44rem;
+  height: .4rem;
+}
+
+.cont .carts-box .carts-middle .carts-right .carts-price {
+  width: 4.96rem;
+  height: .42rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.cont .carts-box .carts-middle .carts-right .carts-price .mt25 {
+  color: #f60;
+}
+
+.cont .carts-box .carts-middle .carts-right .carts-price .mt25 span {
+  font-size: .32rem;
+}
+
+.cont .carts-box .carts-middle .carts-right .carts-price .mt25 span small {
+  font-size: .24rem;
+}
+
+.cont .carts-box .carts-middle .carts-right .carts-price .list-opra {
+  width: 2.04rem;
+  height: .44rem;
+  display: flex;
+}
+
+.cont .carts-box .carts-middle .carts-right .carts-price .list-opra a {
+  display: block;
+  width: .7rem;
+  height: .4rem;
+  text-align: center;
+  font-weight: bold;
+  font-size: .28rem;
+}
+
+.cont .carts-box .carts-middle .carts-right .carts-price .list-opra .number {
+  width: .7rem;
+  height: .4rem;
+  color: #2e2e2e;
+  border: none;
+  outline: 0;
+  background: #f6f6f6;
+  text-align: center;
+}
+
+.cont .carts-box .carts-bottom {
+  width: 7.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.cont .carts-box .carts-bottom p {
+  width: 7.5rem;
+  background: url("../imgs/section9/shengqian.jpg") no-repeat 0.2rem 0.22rem;
+  background-size: .32rem;
+  padding-left: .56rem;
+  font-size: .24rem;
+  color: #f60;
+  padding-top: .2rem;
+  border-top: .02rem solid #eee;
+  background-color: #fff;
+  padding-bottom: .06rem;
+}
+
+.cont .carts-box .carts-bottom div {
+  width: 7.5rem;
+  height: .4rem;
+  line-height: .4rem;
+  padding-left: .1rem;
+  font-size: 11px;
+  color: gray;
+}
+
+.cont .carts-box .carts-fiexd {
+  background: white;
+  width: 7.5rem;
+  height: 1.22rem;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  display: flex;
+}
+
+.cont .carts-box .carts-fiexd .carts {
+  width: 1.1312rem;
+  height: 1.22rem;
+  display: flex;
+  align-items: center;
+}
+
+.cont .carts-box .carts-fiexd .carts .qx {
+  width: 19px;
+  height: 19px;
+  border-radius: 19px;
+  border: 1px solid #dcdcdc;
+  outline: 0;
+  margin-right: .2rem;
+}
+
+.cont .carts-box .carts-fiexd .carts span {
+  color: gray;
+}
+
+.cont .carts-box .carts-fiexd .sum-box {
+  width: 4.3526rem;
+  height: 1.22rem;
+  padding-top: .16rem;
+  padding-right: .225rem;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.cont .carts-box .carts-fiexd .sum-box span:nth-child(1) {
+  color: gray;
+}
+
+.cont .carts-box .carts-fiexd .sum-box span:nth-child(3) {
+  color: #f60;
+}
+
+.cont .carts-box .carts-fiexd .sum-box span:nth-child(4) {
+  color: #f60;
+  font-size: .32rem;
+}
+
+.cont .carts-box .carts-fiexd .settle {
+  display: block;
+  height: .74rem;
+  line-height: .74rem;
+  font-size: .28rem;
+  text-align: center;
+  color: #999;
+  padding: 0 .34rem;
+  background: red;
+  border-radius: .6rem;
+  color: white;
+  margin-top: .26rem;
+  margin-right: .2rem;
+}

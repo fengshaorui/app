@@ -1,0 +1,355 @@
+.detailTab {
+  width: 7.5rem;
+  background-color: white;
+}
+
+.detailTab ul {
+  width: 7.5rem;
+}
+
+.detailTab ul li {
+  list-style: none;
+  float: left;
+  font-size: .28rem;
+  height: .76rem;
+  line-height: .76rem;
+  border-bottom: .01rem solid #DDDDDD;
+  border-top: .01rem solid #DDDDDD;
+  width: 3.74rem;
+  text-align: center;
+  color: #333;
+}
+
+.detailTab ul li.active {
+  color: #ff6600;
+}
+
+.base {
+  width: 7.5rem;
+}
+
+.base .banner {
+  width: 7.5rem;
+  border-bottom: .01rem solid #DDDDDD;
+}
+
+.base .banner .swiper-container {
+  width: 7.5rem;
+}
+
+.base .banner .swiper-container img {
+  width: 7.5rem;
+  height: 7.5rem;
+}
+
+.bottom {
+  width: 7.5rem;
+  font-size: .32rem;
+  background-color: #FFFFFF;
+}
+
+.bottom .btm-one {
+  padding: .2rem 0 .06rem;
+}
+
+.bottom .btm-one .ip_price {
+  padding: 0 .2rem;
+  word-wrap: break-word;
+  overflow: hidden;
+  font-size: .38rem;
+  color: #f60;
+  font-weight: lighter;
+  float: left;
+}
+
+.bottom .btm-one .collect_share {
+  float: right;
+}
+
+.bottom .btm-one .collect_share a {
+  display: inline-block;
+  padding: .06rem .14rem;
+  margin-right: .04rem;
+  width: .6rem;
+  text-align: center;
+}
+
+.bottom .btm-one .collect_share a img {
+  width: .32rem;
+}
+
+.bottom .btm-one .collect_share .shareBtn {
+  margin-right: .3rem;
+}
+
+.bottom .s-title {
+  padding: .06rem 0 .2rem 0;
+}
+
+.bottom .s-title .title {
+  padding: .06rem .2rem 0;
+  font-size: .28rem;
+  font-weight: 700;
+  color: #333;
+}
+
+.bottom .s-title .subtitle {
+  font-size: .24rem;
+  color: #999;
+  text-align: left;
+  margin: .16rem 0 0 .2rem;
+}
+
+.bottom .ip-brand {
+  padding: 0 .2rem 0;
+}
+
+.bottom .ip-brand h2 {
+  color: #333;
+  display: inline-block;
+  font-size: .24rem;
+  font-weight: 400;
+  float: left;
+}
+
+.bottom .ip-brand a {
+  color: #06c;
+  font-size: .24rem;
+  float: left;
+}
+
+.bottom .ip-advantage {
+  padding: .2rem;
+}
+
+.bottom .ip-advantage h2 {
+  color: #333;
+  display: inline-block;
+  font-size: .24rem;
+  font-weight: 400;
+  float: left;
+}
+
+.bottom .ip-advantage .v {
+  padding: 0 .16rem 0 0;
+  display: inline-block;
+  overflow: hidden;
+  width: 45%;
+}
+
+.bottom .ip-advantage .v li {
+  margin-right: .1rem;
+  display: inline;
+  margin-top: .1rem;
+}
+
+.bottom .ip-advantage .v li .service-sure {
+  margin-top: .1rem;
+  background-color: #edf3fa;
+  border: .02rem solid #6192cd;
+  color: #2b62a3;
+  height: .42rem;
+  line-height: .42rem;
+  display: inline-block;
+  padding-right: .06rem;
+  font-size: .24rem;
+}
+
+.bottom .ip-advantage .v li .service-sure img {
+  vertical-align: top;
+  margin-right: .04rem;
+  width: .4rem;
+  height: auto;
+}
+
+.bottom .ip-advantage div {
+  float: right;
+  width: 30%;
+  margin-right: .1rem;
+}
+
+.bottom .detail_sec {
+  padding-bottom: .2rem;
+  overflow: hidden;
+}
+
+.bottom .detail_sec h2 {
+  color: #333;
+  font-size: .24rem;
+  margin-left: .2rem;
+  font-weight: 400;
+  margin-bottom: .2rem;
+  float: left;
+}
+
+.bottom .detail_sec .detial_sale {
+  height: auto;
+  padding: 0 .2rem;
+  width: 72%;
+  float: left;
+}
+
+.bottom .detail_sec .detial_sale .sale_content {
+  line-height: .34rem;
+  margin-bottom: .2rem;
+}
+
+.bottom .detail_sec .detial_sale .sale_content span {
+  display: block;
+  border: 0.02rem solid #ff6600 !important;
+  border-radius: .1rem;
+  width: .9rem;
+  height: .4rem;
+  line-height: .18rem;
+  padding: .1rem .1rem;
+  color: #ff6600;
+  font-size: .2rem;
+  margin-right: .16rem;
+  text-align: center;
+  float: left;
+}
+
+.bottom .detail_sec .detial_sale .sale_content .uof p {
+  font-size: .24rem;
+}
+
+.bottom .detail_sec .detial_sale .sale_content .uof p a {
+  color: red;
+}
+
+.bottom .kong {
+  margin-top: .2rem;
+  font-size: 0;
+  background-color: #EEEEEE !important;
+}
+
+.bottom .li_selectColor {
+  padding: 0.2rem 0.2rem !important;
+  font-size: .24rem;
+}
+
+.bottom .li_selectColor h5 {
+  color: #333;
+  font-weight: 400;
+  display: block;
+  line-height: .56rem;
+  float: left;
+}
+
+.bottom .li_selectColor .items {
+  margin-left: 1.2rem;
+  line-height: .56rem;
+  overflow: hidden;
+}
+
+.bottom .li_selectColor .items .li_cell_unit {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.bottom .li_selectColor .items .li_table_g {
+  display: table;
+  width: 100%;
+  line-height: 28px;
+}
+
+.bottom .li_selectColor .items .li_table_g .li_text_right {
+  text-align: right;
+}
+
+.bottom .li_selectColor .items .li_table_g .li_text_right img {
+  width: .6rem;
+  height: .6rem;
+}
+
+.bottom .li_border_top {
+  border-top: .02rem solid #eee;
+  padding: .2rem;
+}
+
+.bottom .li_border_top h2 {
+  color: #333;
+  display: inline-block;
+  font-size: .24rem;
+  font-weight: 400;
+  float: left;
+}
+
+.bottom .li_border_top div.right {
+  margin-left: 1.2rem;
+  font-size: .24rem;
+}
+
+.bottom .li_border_top div.right .info {
+  color: #ff6600;
+}
+
+.bottom .li_border_top div.right .small {
+  margin-top: .1rem;
+}
+
+.bottom .li_border_top div.right .small a {
+  color: #06c;
+}
+
+.bottom .kong1 {
+  height: 1.14rem;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  z-index: 100;
+  text-align: center;
+  width: 100%;
+  border-width: .02rem 0 0;
+  bottom: -1px;
+  font-size: .24rem;
+  background-color: white;
+}
+
+footer .cont {
+  width: 7.5rem;
+  border-top: .02rem solid #eee;
+  display: flex;
+  justify-content: start;
+}
+
+footer .cont .v-icon-btn {
+  width: 20%;
+  border-right: .02rem solid #eee;
+  text-align: center;
+  padding-top: .18rem;
+  cursor: pointer;
+  display: block;
+}
+
+footer .cont .v-icon-btn img {
+  width: .46rem;
+  height: .46rem;
+}
+
+footer .cont .v-icon-btn .txt {
+  font-size: .2rem;
+  color: #000;
+  display: block;
+  line-height: .3rem;
+  margin-bottom: .12rem;
+  color: #000;
+  margin-top: .06rem;
+}
+
+footer .cont .v-btn-yellow {
+  height: 1.14rem;
+  width: 30%;
+  color: #fff;
+  font-weight: 400;
+  background: #ffaa00;
+  font-size: .32rem;
+  text-align: center;
+  line-height: 1.14rem;
+}
+
+footer .cont .v-btn-red {
+  background: #fe0036;
+}

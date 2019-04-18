@@ -1,0 +1,765 @@
+body {
+  font-size: 0.16rem;
+}
+
+.neirong {
+  background: #f3f3f3;
+  width: 100%;
+}
+
+.neirong .o-banner {
+  width: 100vw;
+}
+
+.neirong .o-banner img {
+  width: 100%;
+  height: 100%;
+}
+
+.neirong .t-banner {
+  padding: .2rem;
+  background: #febc27;
+  box-sizing: border-box;
+}
+
+.neirong .t-banner .banner-list {
+  overflow: hidden;
+  margin-left: -2%;
+}
+
+.neirong .t-banner .banner-list .banner-list1 {
+  box-sizing: border-box;
+  width: 48%;
+  margin-left: 2%;
+  float: left;
+  margin-bottom: .1rem;
+}
+
+.neirong .t-banner .banner-p {
+  color: red;
+  margin-top: .2rem;
+}
+
+.neirong .f-banner {
+  padding: .2rem;
+  padding-bottom: 0rem;
+  background: #980035;
+  box-sizing: border-box;
+}
+
+.neirong .f-banner .banner-list {
+  overflow: hidden;
+  margin-left: -2%;
+}
+
+.neirong .f-banner .banner-list .banner-list1 {
+  box-sizing: border-box;
+  width: 48%;
+  margin-left: 2%;
+  float: left;
+  margin-bottom: .2rem;
+}
+
+.neirong .hot-sale {
+  width: 100%;
+  background: #692ae7;
+}
+
+.neirong .hot-sale .h-sale {
+  width: 100%;
+  padding: 15px 0 8px 0;
+}
+
+.neirong .hot-sale .h-sale img {
+  width: 100%;
+  height: 100%;
+}
+
+.neirong .h-sale-tab {
+  width: 100%;
+  height: .8rem;
+  display: flex;
+  justify-content: center;
+}
+
+.neirong .h-sale-tab .left-sale {
+  width: 50%;
+  height: 100%;
+  background: #ff3076;
+  font-size: .32rem;
+  text-align: center;
+  line-height: .8rem;
+  color: #fff;
+}
+
+.neirong .h-sale-tab .right-sale {
+  width: 50%;
+  height: 100%;
+  background: #666;
+  font-size: .32rem;
+  text-align: center;
+  line-height: .8rem;
+  color: #fff;
+}
+
+.neirong .suit-div {
+  width: 100%;
+  border-top: .01rem solid white;
+  border-bottom: .01rem solid white;
+}
+
+.neirong .suit-div .suit-div-list {
+  display: none;
+}
+
+.neirong .suit-div .suit-one {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  border-top: .01rem solid white;
+  border-bottom: .01rem solid white;
+}
+
+.neirong .suit-div .suit-one .left-suit {
+  width: 13%;
+  text-align: center;
+  height: 1.9rem;
+  line-height: .48rem;
+  padding-top: .2rem;
+  color: #fff;
+  background-color: #f25455;
+}
+
+.neirong .suit-div .suit-one .left-suit .number {
+  font-size: .48rem;
+}
+
+.neirong .suit-div .suit-one .right-suit {
+  width: 87%;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.neirong .suit-div .suit-one .right-suit .right-suit-one {
+  box-sizing: border-box;
+  padding: .1rem;
+  width: 1.9rem;
+  height: 1.9rem;
+}
+
+.neirong .suit-div .suit-one .right-suit .right-suit-one img {
+  width: 100%;
+  height: 100%;
+}
+
+.neirong .suit-div .suit-one .right-suit .right-suit-two {
+  width: 5rem;
+  box-sizing: border-box;
+  padding: .1rem;
+}
+
+.neirong .suit-div .suit-one .right-suit .right-suit-two .right-suit-two-a {
+  font-size: .28rem;
+  color: #333;
+  height: .38rem;
+  overflow: hidden;
+  line-height: .34rem;
+  height: .7rem;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 2;
+  word-break: break-all;
+  margin-top: .2rem;
+}
+
+.neirong .suit-div .suit-one .right-suit .right-suit-two .right-suit-two-a a {
+  color: #333;
+}
+
+.neirong .suit-div .suit-one .right-suit .right-suit-two .price {
+  color: red;
+  margin-top: .2rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.neirong .suit-div .suit-one .right-suit .right-suit-two .price .left-price {
+  box-sizing: border-box;
+  padding-top: .1rem;
+}
+
+.neirong .suit-div .suit-one .right-suit .right-suit-two .price .left-price .ranklable {
+  background-color: #957bff;
+  color: #fff;
+  font-size: .2rem;
+  padding: 0 .04rem 0 .04rem;
+  margin-left: .1rem;
+  border-radius: .04rem;
+  margin-top: .2rem;
+}
+
+.neirong .suit-div .suit-one .right-suit .right-suit-two .price .right-price {
+  width: .52rem;
+  height: .52rem;
+  margin-right: .2rem;
+}
+
+.neirong .product-introduction-top {
+  width: 100%;
+}
+
+.neirong .product-introduction-top img {
+  width: 100%;
+  height: 100%;
+}
+
+.neirong .product-introduction-down {
+  width: 100%;
+}
+
+.neirong .product-introduction-down .product-introduction {
+  width: 100%;
+}
+
+.neirong .product-introduction-down .product-introduction img {
+  width: 100%;
+  height: 100%;
+}
+
+.neirong .product-introduction-down .product-introduction .product-pic {
+  width: 100%;
+  position: relative;
+}
+
+.neirong .product-introduction-down .product-introduction .product-pic a img {
+  width: 100%;
+  height: 100%;
+}
+
+.neirong .product-introduction-down .product-introduction .product-pic .product-pic-right {
+  width: 1.4rem;
+  height: 1rem;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: #ffff00;
+  color: #e5004f;
+  font-size: .2rem;
+  text-align: center;
+  line-height: .32rem;
+  z-index: 2;
+}
+
+.neirong .product-introduction-down .product-introduction .product-pic .product-pic-right .tehui {
+  background: #cc00cc;
+  color: #fff;
+  font-size: .24rem;
+  font-weight: 700;
+  height: .32rem;
+  line-height: .32rem;
+  overflow: hidden;
+}
+
+.neirong .product-introduction-down .product-introduction .product-pic .product-pic-right .youhui-price {
+  font-size: .32rem;
+  font-family: Arial;
+  font-weight: 100;
+}
+
+.neirong .product-introduction-down .product-introduction .product-price {
+  background-color: #005961;
+  padding-top: .3rem;
+  padding-bottom: .3rem;
+}
+
+.neirong .product-introduction-down .product-introduction .product-price .product-price-box {
+  box-sizing: border-box;
+  width: 31.333333333333332%;
+  margin-left: 2%;
+  padding: .3rem;
+  text-align: center;
+}
+
+.neirong .product-introduction-down .product-introduction .product-price .product-price-box .product-price-box1 {
+  color: #ffff00;
+}
+
+.neirong .product-introduction-down .product-introduction .product-price .product-price-box .product-price-box1 .new {
+  font-size: .42rem;
+  color: #ffff00;
+  line-height: .36rem;
+  font-weight: bold;
+}
+
+.neirong .product-introduction-down .product-introduction .product-price .product-price-box a {
+  display: block;
+  background: #ff0066;
+  width: 2.12rem;
+  padding: .12rem 0px .12rem 0px;
+  text-align: center;
+  color: #fff;
+  font-size: .28rem;
+  border-radius: .6rem;
+  text-decoration: none;
+  margin: .2rem 0 0 0;
+}
+
+.neirong .K-song {
+  width: 100%;
+}
+
+.neirong .K-song .top-K-song {
+  width: 100%;
+}
+
+.neirong .K-song .top-K-song img {
+  width: 100%;
+  height: 100%;
+}
+
+.neirong .K-song .down-k-song {
+  width: 100%;
+}
+
+.neirong .K-song .down-k-song img {
+  width: 100%;
+  height: 100%;
+}
+
+.neirong .K-song .K-song-list {
+  background: #eee;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0.5% 0;
+  width: 100%;
+  padding-right: .04rem;
+}
+
+.neirong .K-song .K-song-list .K-list {
+  width: 33.33%;
+  background-color: #fff;
+  color: #333;
+  border: .02rem solid #eee;
+}
+
+.neirong .K-song .K-song-list .K-list .K-list-pic {
+  padding: .1rem 0 0 0;
+}
+
+.neirong .K-song .K-song-list .K-list .K-list-pic img {
+  width: 100%;
+  height: 100%;
+  vertical-align: middle;
+}
+
+.neirong .K-song .K-song-list .K-list .K-list-jianjie {
+  color: #333;
+  font-size: .26rem;
+  display: block;
+  overflow: hidden;
+  height: .8rem;
+  line-height: .32rem;
+  padding: .16rem .16rem 0 .16rem;
+}
+
+.neirong .K-song .K-song-list .K-list .K-list-price {
+  color: #333;
+  padding: 0px .16rem;
+  height: .64rem;
+}
+
+.neirong .K-song .K-song-list .K-list .K-list-price .K-list-price1 {
+  color: #f60;
+  font-size: .28rem;
+  line-height: .58rem;
+  height: .48rem;
+  margin-top: .24rem;
+  text-align: left;
+  border-top: .02rem solid #eee;
+}
+
+.neirong .maikefeng .top-MKF {
+  background: #544add;
+  padding: .3rem 0 .16rem 0;
+}
+
+.neirong .maikefeng .MKF-brand {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -2%;
+}
+
+.neirong .maikefeng .MKF-brand .brand-list {
+  box-sizing: border-box;
+  margin: 0;
+  width: 25%;
+  border-right: .02rem solid #eee;
+}
+
+.neirong .maikefeng .MKF-brand .brand-list a {
+  color: #333;
+}
+
+.neirong .maikefeng .MKF-brand .brand-list a .brand-list-top {
+  padding: .2rem .2rem 0 .2rem;
+}
+
+.neirong .maikefeng .MKF-brand .brand-list a .brand-list-top img {
+  width: 100%;
+  height: 100%;
+}
+
+.neirong .maikefeng .MKF-brand .brand-list a .brand-list-down {
+  height: .56rem;
+  padding: 0px .16rem;
+}
+
+.neirong .maikefeng .MKF-brand .brand-list a .brand-list-down .brandname {
+  border-top: .02rem solid #eee;
+  text-align: center;
+  font-size: .24rem;
+  line-height: .56rem;
+}
+
+.neirong .maikefeng .down-k-song {
+  width: 100%;
+}
+
+.neirong .maikefeng .down-k-song img {
+  width: 100%;
+  height: 100%;
+}
+
+.neirong .maikefeng .K-song-list {
+  background: #eee;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0.5% 0;
+  width: 100%;
+  padding-right: .04rem;
+}
+
+.neirong .maikefeng .K-song-list .K-list {
+  width: 33.33%;
+  background-color: #fff;
+  color: #333;
+  border: .02rem solid #eee;
+}
+
+.neirong .maikefeng .K-song-list .K-list .K-list-pic {
+  padding: .1rem 0 0 0;
+}
+
+.neirong .maikefeng .K-song-list .K-list .K-list-pic img {
+  width: 100%;
+  height: 100%;
+  vertical-align: middle;
+}
+
+.neirong .maikefeng .K-song-list .K-list .K-list-jianjie {
+  color: #333;
+  font-size: .26rem;
+  display: block;
+  overflow: hidden;
+  height: .8rem;
+  line-height: .32rem;
+  padding: .16rem .16rem 0 .16rem;
+}
+
+.neirong .maikefeng .K-song-list .K-list .K-list-price {
+  color: #333;
+  padding: 0px .16rem;
+  height: .64rem;
+}
+
+.neirong .maikefeng .K-song-list .K-list .K-list-price .K-list-price1 {
+  color: #f60;
+  font-size: .28rem;
+  line-height: .58rem;
+  height: .48rem;
+  margin-top: .24rem;
+  text-align: left;
+  border-top: .02rem solid #eee;
+}
+
+.neirong .live-equipment {
+  background-color: #692ae7;
+}
+
+.neirong .live-equipment .live-equipment-top .live-equipment-box {
+  padding: .3rem 0 .16rem 0;
+}
+
+.neirong .live-equipment .live-equipment-list {
+  width: 100%;
+  height: .8rem;
+  background-color: #4d4d4d;
+  color: #fff;
+  display: flex;
+}
+
+.neirong .live-equipment .live-equipment-list .equipment-list {
+  width: 1.656rem;
+  height: .8rem;
+  font-size: .32rem;
+  line-height: .8rem;
+  text-align: center;
+  background-color: #ff3076;
+  font-weight: bold;
+}
+
+.neirong .live-equipment .live-equipment-list div {
+  width: 1.656rem;
+  height: .8rem;
+  font-size: .32rem;
+  line-height: .8rem;
+  text-align: center;
+  background-color: #4d4d4d;
+  font-weight: bold;
+}
+
+.neirong .live-equipment .live-equipment-down {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0px .06rem 0 .06rem;
+  display: flex;
+  flex-wrap: wrap;
+  background: #ff3076;
+}
+
+.neirong .live-equipment .live-equipment-down .live-equipment-down-list {
+  background-color: #fff;
+  margin: 0.5% 0;
+  width: 33.33%;
+  padding-right: .04rem;
+  border-right: .04rem solid #ff3076;
+}
+
+.neirong .live-equipment .live-equipment-down .live-equipment-down-list a {
+  color: #333;
+  border: .02rem solid #eee;
+  background-color: #fff;
+}
+
+.neirong .live-equipment .live-equipment-down .live-equipment-down-list a .equipment-list-top {
+  padding: .1rem 0 0 0;
+}
+
+.neirong .live-equipment .live-equipment-down .live-equipment-down-list a .equipment-list-top img {
+  width: 100%;
+  height: 100%;
+}
+
+.neirong .live-equipment .live-equipment-down .live-equipment-down-list a .equipment-list-middle {
+  color: #333;
+  font-size: .26rem;
+  overflow: hidden;
+  height: .8rem;
+  line-height: .32rem;
+  padding: .16rem .16rem 0 .16rem;
+}
+
+.neirong .live-equipment .live-equipment-down .live-equipment-down-list a .equipment-list-down {
+  padding: 0px .16rem;
+}
+
+.neirong .live-equipment .live-equipment-down .live-equipment-down-list a .equipment-list-down .equipment-list-price {
+  color: #f60;
+  font-size: .28rem;
+  line-height: .78rem;
+  height: .48rem;
+  margin-top: .24rem;
+  text-align: left;
+  border-top: .02rem solid #eee;
+  font-weight: bold;
+}
+
+.neirong .live-equipment .gengduo {
+  background-color: #fff;
+}
+
+.neirong .live-equipment .gengduo a {
+  color: #ff0066;
+  line-height: .8rem;
+  text-align: center;
+  font-size: .28rem;
+  display: block;
+  font-weight: bold;
+}
+
+.neirong .tiaoshi {
+  width: 100%;
+  background-color: #0090e5;
+}
+
+.neirong .tiaoshi .tiaoshi-top {
+  width: 100%;
+  height: 1.08rem;
+  padding: .3rem 0 .16rem 0;
+}
+
+.neirong .tiaoshi .tiaoshi-service {
+  border-radius: .16rem;
+  margin: .2rem;
+  background-color: #0041a2;
+  padding: .2rem;
+  color: #fff;
+  font-size: 0.6rem;
+  line-height: 1.5;
+}
+
+.neirong .tiaoshi .tiaoshi-service .tiaoshi-service-top img {
+  width: 100%;
+  vertical-align: middle;
+}
+
+.neirong .tiaoshi .tiaoshi-service .tiaoshi-service-down a {
+  text-align: center;
+  background-color: #ff7d00;
+  width: 1.9rem;
+  height: .56rem;
+  color: #fff;
+  border-radius: .3rem;
+  line-height: .56rem;
+  display: block;
+  margin: 0 auto;
+  margin-top: .3rem;
+  margin-bottom: .2rem;
+  font-size: .30rem;
+}
+
+.neirong .tiaoshi .live-equipment-down {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0px .06rem 0 .06rem;
+  display: flex;
+  flex-wrap: wrap;
+  background: #0090e5;
+}
+
+.neirong .tiaoshi .live-equipment-down .live-equipment-down-list {
+  background-color: #fff;
+  margin: 0.5% 0;
+  width: 33.33%;
+  padding-right: .04rem;
+  border-right: .04rem solid #0090e5;
+}
+
+.neirong .tiaoshi .live-equipment-down .live-equipment-down-list a {
+  color: #333;
+  border: .02rem solid #eee;
+  background-color: #fff;
+}
+
+.neirong .tiaoshi .live-equipment-down .live-equipment-down-list a .equipment-list-top {
+  padding: .1rem 0 0 0;
+}
+
+.neirong .tiaoshi .live-equipment-down .live-equipment-down-list a .equipment-list-top img {
+  width: 100%;
+  height: 100%;
+}
+
+.neirong .tiaoshi .live-equipment-down .live-equipment-down-list a .equipment-list-middle {
+  color: #333;
+  font-size: .26rem;
+  overflow: hidden;
+  height: .8rem;
+  line-height: .32rem;
+  padding: .16rem .16rem 0 .16rem;
+}
+
+.neirong .tiaoshi .live-equipment-down .live-equipment-down-list a .equipment-list-down {
+  padding: 0px .16rem;
+}
+
+.neirong .tiaoshi .live-equipment-down .live-equipment-down-list a .equipment-list-down .equipment-list-price {
+  color: #f60;
+  font-size: .28rem;
+  line-height: .78rem;
+  height: .48rem;
+  margin-top: .24rem;
+  text-align: left;
+  border-top: .02rem solid #eee;
+  font-weight: bold;
+}
+
+.neirong .tiaoshi .gengduo {
+  background-color: #fff;
+}
+
+.neirong .tiaoshi .gengduo a {
+  color: #ff0066;
+  line-height: .8rem;
+  text-align: center;
+  font-size: .28rem;
+  display: block;
+  font-weight: bold;
+}
+
+.neirong .after-sale {
+  background-color: #002d8d;
+}
+
+.neirong .after-sale .after-sale1 {
+  padding: .3rem 0 .16rem 0;
+}
+
+.neirong .after-sale .after-sale1 img {
+  width: 100%;
+  vertical-align: middle;
+}
+
+.neirong .anchor img {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  vertical-align: middle;
+}
+
+.neirong footer .thematic-special {
+  margin: .48rem auto;
+  width: 94%;
+  height: .02rem;
+  border-top: .03rem solid #d4d4d4;
+  text-align: center;
+}
+
+.neirong footer .thematic-special span {
+  position: relative;
+  top: -0.28rem;
+  background: #f3f3f3;
+  padding: 0 .4rem;
+  font-size: .32rem;
+  color: #333;
+}
+
+.neirong footer .thematic-special-list {
+  padding: .4rem 0 .4rem 0;
+  background: #fff;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.neirong footer .thematic-special-list .thematic-special-list1 {
+  width: 20%;
+  margin-bottom: .6rem;
+  border: 0;
+}
+
+.neirong footer .thematic-special-list .thematic-special-list1 a {
+  margin-top: .4rem;
+  text-align: center;
+}
+
+.neirong footer .thematic-special-list .thematic-special-list1 a img {
+  margin-top: .4rem;
+  width: 40px;
+  height: 40px;
+  margin: 0 .36rem;
+}
+
+.neirong footer .thematic-special-list .thematic-special-list1 a p {
+  margin-top: .08rem;
+  font-size: .24rem;
+  color: #333;
+}

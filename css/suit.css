@@ -1,0 +1,394 @@
+body {
+  font-size: 0.16rem;
+}
+
+.all-box {
+  width: 7.5rem;
+  overflow: hidden;
+}
+
+.cont {
+  width: 7.5rem;
+  margin: 0 auto;
+}
+
+.cont .head {
+  width: 7.5rem;
+  height: 0.90rem;
+  border-bottom: 0.04rem solid #ff7f00;
+  display: flex;
+  justify-content: space-between;
+}
+
+.cont .head .h-left {
+  display: flex;
+}
+
+.cont .head .h-left .aside-nav-toggle {
+  width: 0.80rem;
+  height: 0.80rem;
+  font-size: 0.4rem;
+  line-height: 0.80rem;
+  text-align: center;
+}
+
+.cont .head .h-left .logo {
+  height: 0.8rem;
+  line-height: 0.80rem;
+}
+
+.cont .head .h-left .logo a {
+  display: inline-block;
+  width: 2.36rem;
+  height: 0.64rem;
+}
+
+.cont .head .h-left .logo img {
+  vertical-align: middle;
+}
+
+.cont .head .h-right {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.cont .head .h-right a {
+  width: 0.6rem;
+  height: 0.90rem;
+  margin-right: 0.16rem;
+  padding-top: 0.10rem;
+  text-align: center;
+}
+
+.cont .head .h-right a .myicon {
+  width: 0.4rem;
+  height: 0.40rem;
+  margin: 0 auto;
+  background: url("../imgs/suit/head_icon.png") no-repeat;
+  background-size: auto 0.40rem;
+}
+
+.cont .head .h-right a .icon_01 {
+  background-position: -0.40rem 0;
+}
+
+.cont .head .h-right a .icon_02 {
+  background-position: -0.80rem 0;
+}
+
+.cont .head .h-right a span {
+  color: #000;
+  font-size: 0.14rem;
+}
+
+.cont .bread {
+  width: 7.5rem;
+  height: 0.62rem;
+  font-size: 0.24rem;
+  background-color: #fff;
+  border-bottom: 0.02rem solid #ccc;
+}
+
+.cont .bread .brand-item {
+  height: 0.60rem;
+  line-height: 0.60rem;
+  padding: 0 0.16rem;
+  float: left;
+}
+
+.cont .bread .brand-item a {
+  color: #06c;
+}
+
+.cont .bread .brand-item h1 {
+  font-size: 0.24rem;
+}
+
+.cont .bread .split {
+  width: 0.30rem;
+  background: url("../imgs/suit/head_icon.png") no-repeat;
+  background-size: auto 0.60rem;
+  background-position: -2.52rem 0;
+}
+
+.aside-nav {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  box-sizing: border-box;
+  padding: 0.20rem;
+  display: none;
+  background-color: white;
+  overflow: auto;
+}
+
+.aside-nav dl {
+  width: 2.30rem;
+  margin-bottom: 0.20rem;
+  padding-bottom: 0.20rem;
+  border-bottom: 0.02rem solid #e6e6e6;
+}
+
+.aside-nav dl dt {
+  font-size: 0.30rem;
+  font-weight: bolder;
+  color: #ff7f00;
+  margin-bottom: 0.20rem;
+}
+
+.aside-nav dl dd a {
+  display: block;
+  overflow: hidden;
+  color: #666;
+  line-height: 20px;
+  margin: 0;
+  padding: 0.10rem 0;
+  font-size: 0.28rem;
+}
+
+.aside-nav dl dd a img {
+  width: 1.74rem;
+  height: 0.58rem;
+  vertical-align: middle;
+}
+
+.aside-nav dl dd a img.ot, .aside-nav dl dd a img.phone {
+  width: 0.24rem;
+  height: 0.24rem;
+}
+
+.aside-nav dl dd a.phone-box {
+  color: #ff7f00;
+  font-size: 0.24rem;
+}
+
+.aside-nav dl dd.heart-info {
+  padding-left: 0.26rem;
+  background: url("../imgs/section3/ico_info.jpg") no-repeat;
+  background-position: left center;
+}
+
+.aside-nav dl dd.heart-info a {
+  color: #999;
+  font-size: 0.24rem;
+}
+
+body {
+  font-size: 0.16rem;
+}
+
+.cont {
+  width: 7.5rem;
+  margin: 0 auto;
+}
+
+.cont .page-foot {
+  height: 8.28rem;
+}
+
+.cont .page-foot .press-scan {
+  width: 7.5rem;
+  padding: 0.20rem 0;
+  background-color: #EEEEEE;
+}
+
+.cont .page-foot .press-scan img {
+  width: 100%;
+  height: 2.14rem;
+}
+
+.cont .page-foot .tip-box {
+  height: 1rem;
+  line-height: 1rem;
+  font-size: 0.28rem;
+  padding: 0 0.40rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.cont .page-foot .tip-box .left-box a {
+  color: #333;
+}
+
+.cont .page-foot .tip-box .left-box span {
+  margin: 0 5px;
+  color: #ccc;
+}
+
+.cont .page-foot .tip-box .right-box a {
+  color: #333;
+}
+
+.cont .page-foot .tip-box .right-box a span {
+  font-size: 0.36rem;
+  color: #ff7f00;
+}
+
+.cont .page-foot .help-box {
+  height: 0.30rem;
+  padding: 0.20rem;
+  line-height: 0.30rem;
+  font-size: 0.24rem;
+  color: #666666;
+  border-bottom: 0.02rem #ebeced solid;
+  border-top: 0.02rem #ebeced solid;
+}
+
+.cont .page-foot .help-box .item {
+  float: left;
+  width: 1.76rem;
+  text-align: center;
+  border-right: 0.02rem solid #ddd;
+}
+
+.cont .page-foot .help-box .item i {
+  font-size: 0.28rem;
+}
+
+.cont .page-foot .help-box .item:last-child {
+  border: none;
+}
+
+.cont .page-foot .img-info-box {
+  width: 6.10rem;
+  color: #666;
+  padding: 0.40rem 0.70rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+.cont .page-foot .img-info-box figure {
+  width: 1.26rem;
+  font-size: 0.26rem;
+  margin: 0;
+  text-align: center;
+}
+
+.cont .page-foot .img-info-box figure img {
+  width: 0.84rem;
+  height: auto;
+}
+
+.cont .page-foot .img-info-box figure span {
+  display: inline-block;
+  margin-top: 0.08rem;
+}
+
+.cont .page-foot .license {
+  width: 7.5rem;
+  height: 0.72rem;
+  padding: 0.10rem 0 0.16rem;
+  color: #888888;
+  font-size: 0.24rem;
+}
+
+.cont .page-foot .license p {
+  text-align: center;
+}
+
+.cont .fixed-bottom {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 7.5rem;
+  height: 1rem;
+  background-color: #000;
+  opacity: 0.8;
+  z-index: 2000;
+}
+
+.cont .fixed-bottom a {
+  float: left;
+  width: 1.50rem;
+  height: 1rem;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+}
+
+.cont .fixed-bottom a i {
+  font-size: 0.44rem;
+}
+
+.cont .fixed-bottom a span {
+  width: 100%;
+  display: block;
+  text-align: center;
+  font-size: 0.26rem;
+}
+
+body {
+  font-size: 0.16rem;
+}
+
+.cont {
+  width: 7.5rem;
+  margin: 0 auto;
+}
+
+.cont .solution {
+  width: 7.5rem;
+}
+
+.cont .solution dl {
+  margin: 0 0.20rem;
+}
+
+.cont .solution dl dt {
+  height: 0.92rem;
+  font-size: 0.32rem;
+  line-height: 0.90rem;
+  border-bottom: 0.02rem solid #ddd;
+}
+
+.cont .solution dl dd {
+  height: 1.42rem;
+  border-bottom: 0.02rem solid #eee;
+}
+
+.cont .solution dl dd a {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  color: #000;
+}
+
+.cont .solution dl dd a .left-icon {
+  width: 0.90rem;
+  height: 0.90rem;
+  background-color: #FFE7F8;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 0.90rem;
+}
+
+.cont .solution dl dd a .left-icon i {
+  color: #FF10A2;
+  font-size: 0.45rem;
+}
+
+.cont .solution dl dd a .right-info {
+  margin-left: 0.10rem;
+  height: 0.90rem;
+  display: flex;
+  align-content: space-around;
+  flex-wrap: wrap;
+}
+
+.cont .solution dl dd a .right-info h2 {
+  width: 100%;
+  font-weight: normal;
+  font-size: 0.30rem;
+}
+
+.cont .solution dl dd a .right-info p {
+  width: 100%;
+  font-size: 0.24rem;
+  color: #999999;
+}

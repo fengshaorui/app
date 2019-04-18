@@ -1,0 +1,146 @@
+body {
+  font-size: 0.16rem;
+}
+
+.cont {
+  width: 7.5rem;
+  margin: 0 auto;
+}
+
+.cont .page-foot {
+  height: 8.28rem;
+}
+
+.cont .page-foot .press-scan {
+  width: 7.5rem;
+  padding: 0.20rem 0;
+  background-color: #EEEEEE;
+}
+
+.cont .page-foot .press-scan img {
+  width: 100%;
+  height: 2.14rem;
+}
+
+.cont .page-foot .tip-box {
+  height: 1rem;
+  line-height: 1rem;
+  font-size: 0.28rem;
+  padding: 0 0.40rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.cont .page-foot .tip-box .left-box a {
+  color: #333;
+}
+
+.cont .page-foot .tip-box .left-box span {
+  margin: 0 5px;
+  color: #ccc;
+}
+
+.cont .page-foot .tip-box .right-box a {
+  color: #333;
+}
+
+.cont .page-foot .tip-box .right-box a span {
+  font-size: 0.36rem;
+  color: #ff7f00;
+}
+
+.cont .page-foot .help-box {
+  height: 0.30rem;
+  padding: 0.20rem;
+  line-height: 0.30rem;
+  font-size: 0.24rem;
+  color: #666666;
+  border-bottom: 0.02rem #ebeced solid;
+  border-top: 0.02rem #ebeced solid;
+}
+
+.cont .page-foot .help-box .item {
+  float: left;
+  width: 1.76rem;
+  text-align: center;
+  border-right: 0.02rem solid #ddd;
+}
+
+.cont .page-foot .help-box .item i {
+  font-size: 0.28rem;
+}
+
+.cont .page-foot .help-box .item:last-child {
+  border: none;
+}
+
+.cont .page-foot .img-info-box {
+  width: 6.10rem;
+  color: #666;
+  padding: 0.40rem 0.70rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+.cont .page-foot .img-info-box figure {
+  width: 1.26rem;
+  font-size: 0.26rem;
+  margin: 0;
+  text-align: center;
+}
+
+.cont .page-foot .img-info-box figure img {
+  width: 0.84rem;
+  height: auto;
+}
+
+.cont .page-foot .img-info-box figure span {
+  display: inline-block;
+  margin-top: 0.08rem;
+}
+
+.cont .page-foot .license {
+  width: 7.5rem;
+  height: 0.72rem;
+  padding: 0.10rem 0 0.16rem;
+  color: #888888;
+  font-size: 0.24rem;
+}
+
+.cont .page-foot .license p {
+  text-align: center;
+}
+
+.cont .fixed-bottom {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 7.5rem;
+  height: 1rem;
+  background-color: #000;
+  opacity: 0.8;
+  z-index: 2000;
+}
+
+.cont .fixed-bottom a {
+  float: left;
+  width: 1.50rem;
+  height: 1rem;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+}
+
+.cont .fixed-bottom a i {
+  font-size: 0.44rem;
+}
+
+.cont .fixed-bottom a span {
+  width: 100%;
+  display: block;
+  text-align: center;
+  font-size: 0.26rem;
+}

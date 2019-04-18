@@ -1,0 +1,511 @@
+body {
+  font-size: 0.16rem;
+}
+
+.all-box {
+  width: 7.5rem;
+  overflow: hidden;
+}
+
+.cont {
+  width: 7.5rem;
+  margin: 0 auto;
+}
+
+.cont .head {
+  width: 7.5rem;
+  height: 0.90rem;
+  border-bottom: 0.04rem solid #ff7f00;
+  display: flex;
+  justify-content: space-between;
+}
+
+.cont .head .h-left {
+  display: flex;
+}
+
+.cont .head .h-left .aside-nav-toggle {
+  width: 0.80rem;
+  height: 0.80rem;
+  font-size: 0.4rem;
+  line-height: 0.80rem;
+  text-align: center;
+}
+
+.cont .head .h-left .logo {
+  height: 0.8rem;
+  line-height: 0.80rem;
+}
+
+.cont .head .h-left .logo a {
+  display: inline-block;
+  width: 2.36rem;
+  height: 0.64rem;
+}
+
+.cont .head .h-left .logo img {
+  vertical-align: middle;
+}
+
+.cont .head .h-right {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.cont .head .h-right a {
+  width: 0.6rem;
+  height: 0.90rem;
+  margin-right: 0.16rem;
+  padding-top: 0.10rem;
+  text-align: center;
+}
+
+.cont .head .h-right a .myicon {
+  width: 0.4rem;
+  height: 0.40rem;
+  margin: 0 auto;
+  background: url("../imgs/suit/head_icon.png") no-repeat;
+  background-size: auto 0.40rem;
+}
+
+.cont .head .h-right a .icon_01 {
+  background-position: -0.40rem 0;
+}
+
+.cont .head .h-right a .icon_02 {
+  background-position: -0.80rem 0;
+}
+
+.cont .head .h-right a span {
+  color: #000;
+  font-size: 0.14rem;
+}
+
+.cont .bread {
+  width: 7.5rem;
+  height: 0.62rem;
+  font-size: 0.24rem;
+  background-color: #fff;
+  border-bottom: 0.02rem solid #ccc;
+}
+
+.cont .bread .brand-item {
+  height: 0.60rem;
+  line-height: 0.60rem;
+  padding: 0 0.16rem;
+  float: left;
+}
+
+.cont .bread .brand-item a {
+  color: #06c;
+}
+
+.cont .bread .brand-item h1 {
+  font-size: 0.24rem;
+}
+
+.cont .bread .split {
+  width: 0.30rem;
+  background: url("../imgs/suit/head_icon.png") no-repeat;
+  background-size: auto 0.60rem;
+  background-position: -2.52rem 0;
+}
+
+.aside-nav {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  box-sizing: border-box;
+  padding: 0.20rem;
+  display: none;
+  background-color: white;
+  overflow: auto;
+}
+
+.aside-nav dl {
+  width: 2.30rem;
+  margin-bottom: 0.20rem;
+  padding-bottom: 0.20rem;
+  border-bottom: 0.02rem solid #e6e6e6;
+}
+
+.aside-nav dl dt {
+  font-size: 0.30rem;
+  font-weight: bolder;
+  color: #ff7f00;
+  margin-bottom: 0.20rem;
+}
+
+.aside-nav dl dd a {
+  display: block;
+  overflow: hidden;
+  color: #666;
+  line-height: 20px;
+  margin: 0;
+  padding: 0.10rem 0;
+  font-size: 0.28rem;
+}
+
+.aside-nav dl dd a img {
+  width: 1.74rem;
+  height: 0.58rem;
+  vertical-align: middle;
+}
+
+.aside-nav dl dd a img.ot, .aside-nav dl dd a img.phone {
+  width: 0.24rem;
+  height: 0.24rem;
+}
+
+.aside-nav dl dd a.phone-box {
+  color: #ff7f00;
+  font-size: 0.24rem;
+}
+
+.aside-nav dl dd.heart-info {
+  padding-left: 0.26rem;
+  background: url("../imgs/section3/ico_info.jpg") no-repeat;
+  background-position: left center;
+}
+
+.aside-nav dl dd.heart-info a {
+  color: #999;
+  font-size: 0.24rem;
+}
+
+body {
+  font-size: 0.16rem;
+}
+
+.cont {
+  width: 7.5rem;
+  margin: 0 auto;
+}
+
+.cont .page-foot {
+  height: 8.28rem;
+}
+
+.cont .page-foot .press-scan {
+  width: 7.5rem;
+  padding: 0.20rem 0;
+  background-color: #EEEEEE;
+}
+
+.cont .page-foot .press-scan img {
+  width: 100%;
+  height: 2.14rem;
+}
+
+.cont .page-foot .tip-box {
+  height: 1rem;
+  line-height: 1rem;
+  font-size: 0.28rem;
+  padding: 0 0.40rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.cont .page-foot .tip-box .left-box a {
+  color: #333;
+}
+
+.cont .page-foot .tip-box .left-box span {
+  margin: 0 5px;
+  color: #ccc;
+}
+
+.cont .page-foot .tip-box .right-box a {
+  color: #333;
+}
+
+.cont .page-foot .tip-box .right-box a span {
+  font-size: 0.36rem;
+  color: #ff7f00;
+}
+
+.cont .page-foot .help-box {
+  height: 0.30rem;
+  padding: 0.20rem;
+  line-height: 0.30rem;
+  font-size: 0.24rem;
+  color: #666666;
+  border-bottom: 0.02rem #ebeced solid;
+  border-top: 0.02rem #ebeced solid;
+}
+
+.cont .page-foot .help-box .item {
+  float: left;
+  width: 1.76rem;
+  text-align: center;
+  border-right: 0.02rem solid #ddd;
+}
+
+.cont .page-foot .help-box .item i {
+  font-size: 0.28rem;
+}
+
+.cont .page-foot .help-box .item:last-child {
+  border: none;
+}
+
+.cont .page-foot .img-info-box {
+  width: 6.10rem;
+  color: #666;
+  padding: 0.40rem 0.70rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+.cont .page-foot .img-info-box figure {
+  width: 1.26rem;
+  font-size: 0.26rem;
+  margin: 0;
+  text-align: center;
+}
+
+.cont .page-foot .img-info-box figure img {
+  width: 0.84rem;
+  height: auto;
+}
+
+.cont .page-foot .img-info-box figure span {
+  display: inline-block;
+  margin-top: 0.08rem;
+}
+
+.cont .page-foot .license {
+  width: 7.5rem;
+  height: 0.72rem;
+  padding: 0.10rem 0 0.16rem;
+  color: #888888;
+  font-size: 0.24rem;
+}
+
+.cont .page-foot .license p {
+  text-align: center;
+}
+
+.cont .fixed-bottom {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 7.5rem;
+  height: 1rem;
+  background-color: #000;
+  opacity: 0.8;
+  z-index: 2000;
+}
+
+.cont .fixed-bottom a {
+  float: left;
+  width: 1.50rem;
+  height: 1rem;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+}
+
+.cont .fixed-bottom a i {
+  font-size: 0.44rem;
+}
+
+.cont .fixed-bottom a span {
+  width: 100%;
+  display: block;
+  text-align: center;
+  font-size: 0.26rem;
+}
+
+.cont .top-ad {
+  height: 2.46rem;
+}
+
+.cont .top-ad img {
+  height: 100%;
+  width: 100%;
+}
+
+.cont .top-img2 {
+  background-color: #e24000;
+  padding: 0.20rem 0.10rem;
+}
+
+.cont .top-img2 a {
+  display: inline-block;
+  height: 1.22rem;
+}
+
+.cont .top-img2 .top {
+  margin-bottom: 0.20rem;
+}
+
+.cont .top-img2 .top img {
+  width: 3.6rem;
+  height: 100%;
+}
+
+.cont .top-img2 .bot img {
+  height: 100%;
+  width: 2.38rem;
+}
+
+.cont .hot-tuijian header {
+  height: 2rem;
+}
+
+.cont .hot-tuijian header img {
+  width: 100%;
+  height: 100%;
+}
+
+.cont .hot-tuijian .tuijian-item .top {
+  height: 5.9rem;
+}
+
+.cont .hot-tuijian .tuijian-item .top img {
+  width: 100%;
+  height: 100%;
+}
+
+.cont .hot-tuijian .tuijian-item .bot {
+  background-color: #a400b8;
+  padding: 0.20rem 0 0.40rem 0;
+  display: flex;
+}
+
+.cont .hot-tuijian .tuijian-item .bot img {
+  height: 2.4rem;
+  width: 6rem;
+}
+
+.cont .hot-tuijian .tuijian-item .bot .info {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+.cont .hot-tuijian .tuijian-item .bot .info p {
+  font-size: 0.32rem;
+  color: #ffff00;
+  text-align: center;
+  line-height: 0.60rem;
+}
+
+.cont .hot-tuijian .tuijian-item .bot .info a {
+  width: 1.29rem;
+  background-color: #ff0033;
+  height: 0.56rem;
+  line-height: 0.56rem;
+  color: #fff;
+  font-size: 0.24rem;
+  border-radius: 0.60rem;
+  text-align: center;
+  display: block;
+}
+
+.cont .fast-nav {
+  background-color: #e85116;
+  padding: 0.40rem 0.10rem;
+}
+
+.cont .fast-nav .head-img {
+  width: 100%;
+  height: 0.54rem;
+}
+
+.cont .fast-nav .brand-info, .cont .fast-nav .nav-info {
+  margin-top: 0.25rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+}
+
+.cont .fast-nav .brand-info a, .cont .fast-nav .nav-info a {
+  width: 1.75rem;
+  height: 1.2rem;
+  margin-bottom: 0.10rem;
+  margin-right: 0.07rem;
+}
+
+.cont .fast-nav .nav-info a {
+  width: 2.34rem;
+  height: 0.97rem;
+  margin-right: 0.08rem;
+}
+
+.cont .order-item {
+  background-color: #00cabe;
+  padding: 0.40rem 0.10rem 0.20rem 0.10rem;
+}
+
+.cont .order-item .header-img {
+  height: 0.55rem;
+}
+
+.cont .order-item .big-img-nav {
+  display: block;
+  height: 2.73rem;
+  margin-top: 0.20rem;
+}
+
+.cont .order-item .big-img-nav img {
+  width: 100%;
+  height: 100%;
+}
+
+.cont .order-item .shop-box .shop-item {
+  float: left;
+  margin-right: 0.043rem;
+  padding: 0.10rem 0.10rem 0 0.10rem;
+  background-color: white;
+  margin-top: 0.043rem;
+}
+
+.cont .order-item .shop-box .shop-item a {
+  display: block;
+}
+
+.cont .order-item .shop-box .shop-item a img {
+  width: 2.19rem;
+  height: auto;
+}
+
+.cont .order-item .shop-box .shop-item a p {
+  width: 2.19rem;
+  color: #333;
+  font-size: 0.26rem;
+  overflow: hidden;
+  height: 0.60rem;
+  line-height: 0.30rem;
+  text-overflow: ellipsis;
+  margin: 0.20rem 0;
+}
+
+.cont .order-item .shop-box .shop-item a .price-box {
+  width: 2.19rem;
+  color: #ff6600;
+  line-height: 0.72rem;
+  border-top: 0.02rem solid #eee;
+  margin-top: 0.20rem;
+  font-size: 0.28rem;
+}
+
+.cont .order-item a.more-info {
+  height: 0.80rem;
+  line-height: 0.80rem;
+  width: 100%;
+  margin-top: 0.043rem;
+  background-color: #fff;
+  color: #08c254;
+  display: block;
+  text-align: center;
+  font-size: 0.26rem;
+}
